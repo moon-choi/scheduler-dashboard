@@ -10,4 +10,13 @@ class Dashboard extends Component {
   }
 }
 
+
+// different syntax
+
+/*function Dashboard(props) {
+  const dashboardClasses = classnames("dashboard");
+  return <main className={dashboardClasses} />;
+}
+*/
+
 export default Dashboard;
